@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <video autoplay></video>
+    <video autoplay playsinline></video>
     <button @click="takePhoto">Take Photo</button>
     <div class="picture">
       <canvas></canvas>
